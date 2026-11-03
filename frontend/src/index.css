@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.playwrite-mx-guides-regular {
+  font-family: "Playwrite MX Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-grid-pattern {
+  background-color: #676666;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.95) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.9) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+
+/* index.css or App.css */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3b82f6; /* Tailwind's blue-500 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* Tailwind's gray-200 */
+}
+
+
+@layer base {
+  body {
+    @apply bg-white text-gray-800 dark:bg-dark-bg dark:text-dark-text;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/90;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary/90;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .page-transition {
+    @apply transition-opacity duration-500;
+  }
+
+  .page-enter {
+    @apply opacity-0;
+  }
+
+  .page-enter-active {
+    @apply opacity-100;
+  }
+
+  .page-exit {
+    @apply opacity-100;
+  }
+
+  .page-exit-active {
+    @apply opacity-0;
+  }
+}
+

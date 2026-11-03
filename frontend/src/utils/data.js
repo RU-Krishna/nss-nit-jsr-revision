@@ -1,0 +1,1919 @@
+
+export const events = [
+  {
+    id: 1,
+    title: "Blood Donation Camp",
+    date: "2025-03-15",
+    category: "past",
+    image: "/Gallery_Images/Blood_Donation_Camp/image1.jpg",
+    description:
+      "Join us for our annual blood donation camp in collaboration with the Red Cross Society. Your small contribution can save lives.",
+    location: "NIT Jamshedpur Campus",
+    time: "10:00 AM - 4:00 PM",
+    link:"blood-donation-camp",
+  },
+  {
+    id: 2,
+    title: "Tree Plantation Drive",
+    date: "2025-04-22",
+    category: "past",
+    image: "/Gallery_Images/Tree_Plantation_Drive/image1.jpg",
+    description:
+      "Help us make our planet greener by participating in our tree plantation drive. We aim to plant 500 trees in a day.",
+    location: "Jubilee Park, Jamshedpur",
+    time: "9:00 AM - 1:00 PM",
+    link:"tree-plantation-drive",
+  },
+  {
+    id: 3,
+    title: "Health Awareness Workshop",
+    date: "2025-03-02",
+    category: "past",
+    image: "/Gallery_Images/Health_Awareness_Camp/image5.jpg",
+    description:
+      "A workshop on health awareness focusing on preventive measures and healthy lifestyle choices conducted by the Red Cross Society. Participants learned about COVID-19 prevention measures and distributed masks and sanitizers.",
+    location: "Central Auditorium, NIT Jamshedpur",
+    time: "2:00 PM - 5:00 PM",
+    link:"health-awareness-camp",
+  },
+  {
+    id: 4,
+    title: "Cleanliness Drive",
+    date: "2024-12-15",
+    category: "past",
+    image: "/Gallery_Images/Cleanliness_Drive/image1.jpg",
+    description:
+      "A successful cleanliness drive conducted in the nearby villages to promote hygiene and sanitation. Over 50 volunteers, under the guidance of Dr. Jayendra Kumar, cleaned various parts of the campus. Around 7 kilograms of plastic waste was collected and weighed by Dr. Naveen Veldurthi and Go Green Club members.",
+    location: "Adityapur Village",
+    time: "9:00 AM - 12:00 PM",
+    link:"cleanliness-drive",
+  },
+  {
+    id: 5,
+    title: "Educational Outreach",
+    date: "2024-11-20",
+    category: "past",
+    image: "/Gallery_Images/Village_Outreach/image1.jpg",
+    description:
+      "An educational outreach program for underprivileged children, providing them with books, stationery, and basic education.",
+    location: "Government School, Jamshedpur",
+    time: "10:00 AM - 3:00 PM",
+    link:"educational-workshop",
+  },
+  {
+    id: 6,
+    title: "Health Awareness Campaign",
+    date: "2024-10-05",
+    category: "past",
+    image: "/Gallery_Images/Health_Awareness_Camp/image1.jpg",
+    description:
+      "A campaign to spread awareness about COVID-19 prevention measures and distribute masks and sanitizers.",
+    location: "Various locations in Jamshedpur",
+    time: "All Day",
+    link:"health-awareness-camp",
+  },
+  {
+    id:7 ,
+    title: "Cleanliness Drive",
+    date: "2025-04-26",
+    category: "past",
+    image:"/Gallery_Images/NSS_Cleanliness_Drive_2025/image1.webp",
+    description:
+      "The NSS unit of NIT Jamshedpur conducted a cleanliness drive on 26th April 2025. Over 50 volunteers, under the guidance of Dr. Jayendra Kumar, cleaned various parts of the campus. Around 7 kilograms of plastic waste was collected and weighed by Dr. Naveen Veldurthi and Go Green Club members. This drive reinforced the importance of consistent small efforts towards a greener, cleaner NIT Jamshedpur.",
+    location: "NIT Jamshedpur Campus",
+    time: "7:00 AM onwards",
+    link: "nss-cleanliness-drive-2025",
+  },
+  {
+    id: 8,
+    title: "Cyber Awareness Case Study and Seminar",
+    date: "2024-04-12",
+    category: "past",
+    image: "/Gallery_Images/Cyber_Awareness/image1.jpg",
+    description: "During the Cyber Security and Awareness Week, NSS organized a Cyber Awareness Case Study competition, attracting around 20 participating teams. Shortlisted teams advanced to the presentation round. The top three winners showcased their case studies at the Cyber Security Seminar, attended by dignitaries, faculty members, and students, spreading awareness amongst the public.",
+    location: "LHC",
+    time: "5:00 PM - 7:00 PM",
+    link:"cyber-awareness",
+  },
+  {
+    id: 9,
+    title: "World No Tobacco Day",
+    date: "2025-05-31",
+    category: "past",
+    image: "/Gallery_Images/World_No_Tobacco_Day/image1.png",
+    description: "To commemorate World No Tobacco Day, the NSS unit of NIT Jamshedpur hosted an engaging online quiz and video-making competition. Led by Program Coordinator Dr. Jayendra Kumar, the event aimed to spread awareness about the dangers of tobacco consumption. With enthusiastic participation from 42 students, Akankshya Samal secured the top spot in the quiz, while Ekangsh Sah's video was awarded best entry.",
+    location: "Online - Mode",
+    time: "11:00 AM - 1:00 PM",
+    link:"world-no-tobacco-day",
+  },
+  {
+    id: 10,
+    title: "World Environment Day",
+    date: "2025-06-05",
+    category: "past",
+    image: "/Gallery_Images/World_Environment_Day/image1.png", 
+    description: "On the occasion of World Environment Day, the NSS Unit of NIT Jamshedpur organized a plantation drive and released an environmental awareness video. Under the guidance of Programme Coordinator Dr. Jayendra Kumar, students actively participated by planting saplings near their homes and sharing their efforts online. The initiative promoted sustainable living and highlighted key ecological concerns through student-led voices.",
+    location: "Near Students' Homes",
+    time: "All Day",
+    link:"world-environment-day",
+  },
+  {
+    id: 11,
+    title: "International Yoga Day 2025",
+    date: "2025-06-21",
+    category: "past",
+    image: "/Gallery_Images/International_Yoga_Day/image1.jpg", 
+    description: "NIT Jamshedpur's NSS unit held an online yoga session on International Yoga Day 2025, guided by experts including Er. Anshu Kumar Singh and Ms. Ritu Jha. Attended by 70 participants, the event promoted yoga's mental and physical benefits through posture practice, meditation, and insightful talks by faculty and guests. The initiative successfully emphasized holistic well-being and the importance of mindfulness in daily life.",
+    location: "Online - Meet",
+    time: "All Day",
+    link:"international-yoga-day-2025",
+  },
+  {
+    id: 12,
+    title: "Raksha Bandhan for Indian Soldiers 2025",
+    date: "2025-08-02",
+    category: "past",
+    image: "/Gallery_Images/Raksha_Bandhan_Soldiers/image1.jpg", 
+    description: "NSS NIT Jamshedpur, under the guidance of Dr. Jayendra Kumar, sent 120 rakhis to Indian soldiers as a gesture of gratitude and solidarity. The initiative, supported by faculty wives and female students, honoured the courage and sacrifice of our jawans, reminding them they are never forgotten.",
+    location: "NIT Jamshedpur",
+    time: "All Day",
+    link:"raksha-bandhan-soldiers-2025",
+},
+{
+    id: 13,
+    title: "Raksha Bandhan Celebration with Security Staff 2025",
+    date: "2025-08-09",
+    category: "past",
+    image: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image1.jpg", 
+    description: "The NSS Unit of NIT Jamshedpur celebrated Raksha Bandhan by honouring nearly 50 campus security personnel. Girl students tied rakhis as a mark of respect, joined by faculty members and Brahmakumari sisters, fostering unity and community bonding.",
+    location: "NIT Jamshedpur",
+    time: "All Day",
+    link:"raksha-bandhan-security-guards-2025",
+} ,
+{
+    id: 14,
+    title: "Independence Day Flag Rally 2025",
+    date: "August 14, 2025",
+    category: "past",
+    image: "/Gallery_Images/Independence_Day_Flag_Rally_2025/image1.jpg", 
+    description: "A spirited flag rally organised by NSS NIT Jamshedpur and NCC 37 Battalion, promoting the Har Ghar Tiranga campaign across campus.",
+    location: "NIT Jamshedpur",
+    time: "Evening",
+    link: "independence-day-flag-rally-2025"
+},
+{
+    id: 15,
+    title: "Mega Blood Donation Camp 2025",
+    date: "August 30, 2025",
+    category: "past",
+    image: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image1.jpg", 
+    description: "Organized by NITJAA in collaboration with NSS NIT Jamshedpur, the Mega Blood Donation Camp at TSG Hall collected 335 units of blood. The event saw active participation from students, faculty, staff, and alumni, marking a new milestone for the institute and celebrating the spirit of compassion and social responsibility.",
+    location: "TSG Hall, NIT Jamshedpur",
+    time: "Morning",
+    link: "mega-blood-donation-camp-2025"
+},
+
+
+];
+export const upcomingEvents = [
+  /*
+  {
+    name: "Blood Donation Camp",
+    category: "Health",
+    description: "Join our annual blood donation drive in collaboration with the local hospital.",
+    icon: "🩸",
+    date: "May 15, 2025",
+    formLink: "https://forms.google.com/blooddonation"
+  },
+  {
+    name: "Tree Plantation Drive",
+    category: "Environment",
+    description: "Help us make our planet greener by planting trees in and around our campus.",
+    icon: "🌱",
+    date: "May 22, 2025",
+    formLink: "https://forms.google.com/treeplantation"
+  },
+  {
+    name: "Leadership Workshop",
+    category: "Skill Development",
+    description: "Develop your leadership skills through interactive sessions by industry experts.",
+    icon: "👥",
+    date: "June 5, 2025",
+    formLink: "https://forms.google.com/leadershipworkshop"
+  },
+  {
+    name: "Swachchhata Pakhwara",
+    category: "Environment",
+    description: "Clean surroundings. Clean habits. Clean future.",
+    icon: "🧹",
+    date: "June 12, 2025",
+    formLink: "https://forms.google.com/cleanliness"
+  },
+  {
+    name: "Run For Unity",
+    category: "Health",
+    description: "Race towards a united India. One stride at a time.",
+    icon: "🏃",
+    date: "June 20, 2025",
+    formLink: "https://forms.google.com/runforunity"
+  },
+  {
+    name: "Digital Literacy Workshop",
+    category: "Education",
+    description: "Learn essential digital skills for the modern world.",
+    icon: "💻",
+    date: "July 3, 2025",
+    formLink: "https://forms.google.com/digitalliteracy"
+  }
+    */
+];
+
+export const galleryEvents = [
+  {
+    id: 10,
+    eventId: "nss-cleanliness-drive-2025",
+    title: "NSS Cleanliness Drive 2025",
+    thumbnailSrc: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image1.webp",
+    category: "environment",
+    description:
+      "Over 50 NSS volunteers at NIT Jamshedpur, under the guidance of Dr. Jayendra Kumar, participated in a campus-wide cleanliness drive on 26th April 2025, promoting waste segregation and environmental awareness.",
+    date: "April 26, 2025",
+    location: "NIT Jamshedpur Campus",
+    imageCount: 8,
+    featured: true,
+  },
+  {
+    id: 1,
+    eventId: "blood-donation-camp",
+    title: "Blood Donation Camp",
+    thumbnailSrc: "/Gallery_Images/Blood_Donation_Camp/image1.jpg",
+    category: "events",
+    description:
+      "Students participating in the annual blood donation camp, contributing to the community's health and wellbeing.",
+    date: "March 15, 2025",
+    location: "University Campus",
+    imageCount: 8,
+    featured: true,
+  },
+  {
+    id: 2,
+    eventId: "tree-plantation-drive",
+    title: "Tree Plantation Drive",
+    thumbnailSrc:
+      "/Gallery_Images/Tree_Plantation_Drive/image1.jpg",
+    category: "environment",
+    description:
+      "Volunteers planting trees as part of the green initiative to combat climate change and promote sustainability.",
+    date: "April 22, 2025",
+    location: "City Park",
+    imageCount: 5,
+    featured: true,
+  },
+  {
+    id: 3,
+    eventId: "educational-workshop",
+    title: "Educational Workshop",
+    thumbnailSrc:
+      "/Gallery_Images/Educational_Workshop/image1.jpg",
+    category: "education",
+    description:
+      "Teaching basic computer skills to underprivileged children, empowering them with digital literacy for the future.",
+    date: "February 10, 2025",
+    location: "Community Center",
+    imageCount: 9,
+    featured: false,
+  },
+  {
+    id: 4,
+    eventId: "cleanliness-drive",
+    title: "Cleanliness Drive",
+    thumbnailSrc: "/Gallery_Images/Cleanliness_Drive/image1.jpg",
+    category: "environment",
+    description:
+      "NSS volunteers cleaning the local beach area and raising awareness about plastic pollution and waste management.",
+    date: "January 8, 2025",
+    location: "Silver Beach",
+    imageCount: 10,
+    featured: false,
+  },
+  {
+    id: 5,
+    eventId: "health-awareness-camp",
+    title: "Health Awareness Camp",
+    thumbnailSrc:
+      "/Gallery_Images/Health_Awareness_Camp/image1.jpg",
+    category: "health",
+    description:
+      "Free health check-up camp organized in a rural area, providing essential medical services to underserved communities.",
+    date: "March 2, 2025",
+    location: "Rural Health Center",
+    imageCount: 6,
+    featured: true,
+  },
+  {
+    id: 6,
+    eventId: "cultural-program",
+    title: "Cultural Program",
+    thumbnailSrc: "/Gallery_Images/Cultural_Program/image1.jpg",
+    category: "events",
+    description:
+      "Cultural performance during the NSS Annual Day celebration, showcasing diverse talents and traditions.",
+    date: "December 12, 2024",
+    location: "University Auditorium",
+    imageCount: 6,
+    featured: true,
+  },
+  {
+    id: 7,
+    eventId: "yoga-session",
+    title: "Yoga Session",
+    thumbnailSrc: "/Gallery_Images/Yoga_Session/image1.jpg",
+    category: "health",
+    description:
+      "Morning yoga session conducted for the community, promoting physical and mental wellbeing through ancient practices.",
+    date: "January 21, 2025",
+    location: "Community Garden",
+    imageCount: 5,
+    featured: false,
+  },
+  {
+    id: 8,
+    eventId: "awareness-rally",
+    title: "Awareness Rally",
+    thumbnailSrc: "/Gallery_Images/Awareness_Rally/image1.jpg",
+    category: "events",
+    description:
+      "Rally organized to spread awareness about social issues, mobilizing community support for positive change.",
+    date: "November 30, 2024",
+    location: "Downtown City",
+    imageCount: 8,
+    featured: false,
+  },
+  {
+    id: 9,
+    eventId: "village-outreach",
+    title: "Village Outreach",
+    thumbnailSrc: "/Gallery_Images/Village_Outreach/image1.jpg",
+    category: "education",
+    description:
+      "Volunteers teaching children in a nearby village, bridging educational gaps and inspiring young minds.",
+    date: "February 28, 2025",
+    location: "Greenfield Village",
+    imageCount: 7,
+    featured: true,
+  },
+  {
+    id: 11,
+    eventId: "cyber-awareness-case-study-and-seminar",
+    title: "Cyber Awareness Case Study and Seminar",
+    thumbnailSrc: "/Gallery_Images/Cyber_Awareness/image1.jpg",
+    category: "events",
+    description: "NSS organized a Cyber Awareness Case Study competition followed by a seminar, promoting cybersecurity awareness through student presentations and expert insights.",
+    date: "April 12, 2024",
+    location: "LHC, NIT Jamshedpur",
+    imageCount: 10, 
+    featured: false
+  },  
+  {
+    id: 12,
+    eventId: "world-no-tobacco-day",
+    title: "World No Tobacco Day",
+    thumbnailSrc: "/Gallery_Images/World_No_Tobacco_Day/image1.png",
+    category: "events",
+    description: "To mark World No Tobacco Day, NSS NIT Jamshedpur organized an online quiz and video-making competition to raise awareness about the harmful effects of tobacco.",
+    date: "May 31, 2025",
+    location: "Online",
+    imageCount: 8, 
+    featured: false
+  },
+  {
+    id: 13,
+    eventId: "world-environment-day",
+    title: "World Environment Day",
+    thumbnailSrc: "/Gallery_Images/World_Environment_Day/image1.png",
+    category: "events",
+    description: "NSS NIT Jamshedpur celebrated World Environment Day with a plantation drive and an awareness video, encouraging students to take eco-friendly actions at home.",
+    date: "June 5, 2025",
+    location: "Near Students' Homes",
+    imageCount: 12, 
+    featured: false
+  },
+  {
+    id: 14,
+    eventId: "international-yoga-day-2025",
+    title: "International Yoga Day 2025",
+    thumbnailSrc: "/Gallery_Images/International_Yoga_Day/image1.jpg",
+    category: "events",
+    description: "An online yoga session conducted by NSS NIT Jamshedpur, featuring expert guidance and active student participation to promote mindfulness and well-being.",
+    date: "June 21, 2025",
+    location: "Online",
+    imageCount: 10, 
+    featured: false
+  },
+  {
+    id: 15,
+    eventId: "raksha-bandhan-soldiers-2025",
+    title: "Raksha Bandhan for Indian Soldiers 2025",
+    thumbnailSrc: "/Gallery_Images/Raksha_Bandhan_Soldiers/image1.jpg",
+    category: "events",
+    description: "NSS NIT Jamshedpur sent 120 rakhis to Indian soldiers, honouring their courage and sacrifice with heartfelt gestures from faculty wives and students.",
+    date: "August 2, 2025",
+    location: "NIT Jamshedpur",
+    imageCount: 3,
+    featured: false
+},
+{
+    id: 16,
+    eventId: "raksha-bandhan-security-guards-2025",
+    title: "Raksha Bandhan Celebration with Security Staff 2025",
+    thumbnailSrc: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image1.jpg",
+    category: "events",
+    description: "Girl students tied rakhis to nearly 50 campus security personnel, joined by faculty and Brahmakumari sisters, celebrating unity and gratitude.",
+    date: "August 9, 2025",
+    location: "NIT Jamshedpur",
+    imageCount: 7,
+    featured: false
+},
+{
+    id: 17,
+    eventId: "independence-day-flag-rally-2025",
+    title: "Independence Day Flag Rally 2025",
+    thumbnailSrc: "/Gallery_Images/Independence_Day_Flag_Rally_2025/image1.jpg",
+    category: "events",
+    description: "NSS and NCC cadets conducted a patriotic flag rally on campus to mark the 79th Independence Day and promote the Har Ghar Tiranga campaign.",
+    date: "August 14, 2025",
+    location: "NIT Jamshedpur",
+    imageCount: 6,
+    featured: false
+},
+{
+    id: 18,
+    eventId: "mega-blood-donation-camp-2025",
+    title: "Mega Blood Donation Camp 2025",
+    thumbnailSrc: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image1.jpg",
+    category: "events",
+    description: "NITJAA and NSS NIT Jamshedpur organized a Mega Blood Donation Camp at TSG Hall, collecting 335 units of blood with enthusiastic participation from students, faculty, staff, and alumni.",
+    date: "August 30, 2025",
+    location: "TSG Hall, NIT Jamshedpur",
+    imageCount: 10,
+    featured: false
+}
+
+
+
+  
+];
+
+export const galleryEventsDetailed = {
+  "nss-cleanliness-drive-2025": {
+    id:10,
+     eventId: "nss-cleanliness-drive-2025",
+     title: "NSS Cleanliness Drive 2025",
+     date: "April 26, 2025",
+     location: "NIT Jamshedpur Campus",
+     category: "environment",
+     description: "On 26th April 2025, NSS volunteers at NIT Jamshedpur, guided by Dr. Jayendra Kumar, organized a cleanliness drive across the campus. Over 50 volunteers enthusiastically participated, promoting proper waste segregation and sustainability. Around 7 kilograms of plastic waste was collected, contributing towards a cleaner, greener campus.",
+     images: [
+       {
+         id: 1,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image1.webp",
+         alt: "NSS volunteers assembled for the cleanliness drive.",
+         width: 1200,
+         height: 800
+       },
+       {
+         id: 2,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image2.webp",
+         alt: "Teams cleaning various parts of the campus.",
+         width: 800,
+         height: 1200
+       },
+       {
+         id: 3,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image3.webp",
+         alt: "Volunteers segregating plastic waste with gloves and bags.",
+         width: 1200,
+         height: 900
+       },
+       {
+         id: 4,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image4.webp",
+         alt: "Group cleaning the TSG area.",
+         width: 900,
+         height: 1200
+       },
+       {
+         id: 5,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image5.webp",
+         alt: "Cleaning of various part of campus",
+         width: 1600,
+         height: 900
+       },
+       {
+         id: 6,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image6.webp",
+         alt: "Volunteers displaying collected plastic waste bags.",
+         width: 1200,
+         height: 900
+       },
+       {
+         id: 7,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image7.webp",
+         alt: "Collected waste from different part of campus.",
+         width: 1200,
+         height: 900
+       },
+       {
+         id: 8,
+         src: "/Gallery_Images/NSS_Cleanliness_Drive_2025/image8.webp",
+         alt: "Team photo marking the successful completion of the drive.",
+         width: 900,
+         height: 1200
+       }
+     ]
+   },
+  "blood-donation-camp": {
+    id: 1,
+    eventId: "blood-donation-camp",
+    title: "Blood Donation Camp",
+    date: "March 15, 2025",
+    location: "University Campus",
+    category: "events",
+    description: "Students participating in the annual blood donation camp, contributing to the community's health and wellbeing. Our student volunteers organized this camp in collaboration with the Red Cross, collecting over 100 units of blood that will help save numerous lives in our local hospitals.",
+    images: [
+      {
+        id: 1,
+        src: "/Gallery_Images/Blood_Donation_Camp/image1.jpg",
+        alt: "Students donating blood",
+        width: 1200,
+        height: 800
+      },
+      {
+        id: 2,
+        src: "/Gallery_Images/Blood_Donation_Camp/image2.jpg",
+        alt: "Medical staff collecting blood samples",
+        width: 800,
+        height: 1200
+      },
+      {
+        id: 3,
+        src: "/Gallery_Images/Blood_Donation_Camp/image3.jpg",
+        alt: "Volunteers organizing the camp",
+        width: 1200,
+        height: 900
+      },
+      {
+        id: 4,
+        src: "/Gallery_Images/Blood_Donation_Camp/image4.jpg",
+        alt: "Student receiving post-donation care",
+        width: 900,
+        height: 1200
+      },
+      {
+        id: 5,
+        src: "/Gallery_Images/Blood_Donation_Camp/image5.jpg",
+        alt: "Camp registration desk",
+        width: 1200,
+        height: 800
+      },
+      {
+        id: 6,
+        src: "/Gallery_Images/Blood_Donation_Camp/image6.jpg",
+        alt: "Doctor explaining the importance of blood donation",
+        width: 800,
+        height: 800
+      },
+      {
+        id: 7,
+        src: "/Gallery_Images/Blood_Donation_Camp/image7.jpg",
+        alt: "Blood donation awareness posters",
+        width: 1200,
+        height: 900
+      },
+      {
+        id: 8,
+        src: "/Gallery_Images/Blood_Donation_Camp/image8.jpg",
+        alt: "Group photo of donors and organizers",
+        width: 1600,
+        height: 900
+      },
+    ]
+  },
+  "tree-plantation-drive": {
+    id: 2,
+    eventId: "tree-plantation-drive",
+    title: "Tree Plantation Drive",
+    date: "April 22, 2025",
+    location: "City Park",
+    category: "environment",
+    description: "Volunteers planting trees as part of the green initiative to combat climate changes and promote sustainability. Our team planted over 200 native saplings that will help restore the local ecosystem and provide a green cover for future generations.",
+    images: [
+      {
+        id: 1,
+        src: "/Gallery_Images/Tree_Plantation_Drive/image1.jpg",
+        alt: "Volunteers planting saplings",
+        width: 1200,
+        height: 800
+      },
+      {
+        id: 2,
+        src: "/Gallery_Images/Tree_Plantation_Drive/image2.jpg",
+        alt: "Children learning about tree planting",
+        width: 800,
+        height: 1200
+      },
+      {
+        id: 3,
+        src: "/Gallery_Images/Tree_Plantation_Drive/image3.jpg",
+        alt: "Team preparing the soil",
+        width: 1200,
+        height: 900
+      },
+      {
+        id: 4,
+        src: "/Gallery_Images/Tree_Plantation_Drive/image4.jpg",
+        alt: "Watering the newly planted trees",
+        width: 900,
+        height: 1200
+      },
+      {
+        id: 5,
+        src: "/Gallery_Images/Tree_Plantation_Drive/image5.jpg",
+        alt: "Group photo with tree saplings",
+        width: 1600,
+        height: 900
+      }
+    ]
+  },
+  "educational-workshop": {
+    "id": 3,
+    "eventId": "educational-workshop",
+    "title": "Educational Workshop",
+    "date": "February 10, 2025",
+    "location": "University Campus",
+    "category": "education",
+    "description": "Teaching basic computer skills to underprivileged children, empowering them with essential digital literacy.The workshop bridged the digital divide by teaching basic computer skills like browsing, word processing, and internet use. Volunteers mentored participants, boosting their digital confidence.",
+    "images": [
+      {
+        "id": 1,
+        "src": "/Gallery_Images/Educational_Workshop/image1.jpg",
+        "alt": "Participantions from different students and volunteers in learning digital skills",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": 2,
+        "src": "/Gallery_Images/Educational_Workshop/image2.jpg",
+        "alt": "Faculty felicitated with a plaque for contribution to the workshop",
+        "width": 800,
+        "height": 1200
+      },
+      {
+        "id": 3,
+        "src": "/Gallery_Images/Educational_Workshop/image3.jpg",
+        "alt": "Speaker explaining computer concepts on stage",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 4,
+        "src": "/Gallery_Images/Educational_Workshop/image4.jpg",
+        "alt": "Participants listening attentively to the speaker",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "id": 5,
+        "src": "/Gallery_Images/Educational_Workshop/image5.jpg",
+        "alt": "Volunteers and students getting certificates of participation",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": 6,
+        "src": "/Gallery_Images/Educational_Workshop/image6.jpg",
+        "alt": "Audience seated in a large hall participating in the session",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "id": 7,
+        "src": "/Gallery_Images/Educational_Workshop/image7.jpg",
+        "alt": "Group of volunteers and attendees posing for a picture",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 8,
+        "src": "/Gallery_Images/Educational_Workshop/image8.jpg",
+        "alt": "Group photo of all participants and organizers in the hall",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "id": 9,
+        "src": "/Gallery_Images/Educational_Workshop/image9.jpg",
+        "alt": "Guests were honored with tokens of appreciation for attending the event.",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  "cleanliness-drive": {
+    id: 4,
+    eventId: "cleanliness-drive",
+    title: "Cleanliness Drive",
+    date: "January 8, 2025",
+    location: "NIT College Campus",
+    category: "environment",
+    description: "NSS volunteers cleaning the NIT college campus and raising awareness about plastic pollution.The drive successfully promoted cleanliness and hygiene on campus. Informational banners were also used to spread the message of sustainability and cleanliness.",
+    images: [
+      {
+        id: 1,
+        src: "/Gallery_Images/Cleanliness_Drive/image1.jpg",
+        alt: "Group photo of volunteers after the successful completion of the cleanliness drive.",
+        width: 1200,
+        height: 800
+      },
+      {
+        id: 2,
+        src: "/Gallery_Images/Cleanliness_Drive/image2.jpg",
+        alt: "Students holding awareness banners",
+        width: 800,
+        height: 1200
+      },
+      {
+        id: 3,
+        src: "/Gallery_Images/Cleanliness_Drive/image3.jpg",
+        alt: "Collected waste segregated for recycling",
+        width: 1200,
+        height: 900
+      },
+      {
+        id: 4,
+        src: "/Gallery_Images/Cleanliness_Drive/image4.jpg",
+        alt: "Group of volunteers in action",
+        width: 900,
+        height: 1200
+      },
+      {
+        id: 5,
+        src: "/Gallery_Images/Cleanliness_Drive/image5.jpg",
+        alt: "Group photo after the drive",
+        width: 1600,
+        height: 900
+      },
+      {
+        id: 6,
+        src: "/Gallery_Images/Cleanliness_Drive/image6.jpg",
+        alt: "Volunteers segregating plastic waste",
+        width: 1200,
+        height: 900
+      },
+      {
+        id: 7,
+        src: "/Gallery_Images/Cleanliness_Drive/image7.jpg",
+        alt: "Volunteers collecting waste near hostel blocks",
+        width: 1200,
+        height: 900
+      },
+      {
+        id: 8,
+        src: "/Gallery_Images/Cleanliness_Drive/image8.jpg",
+        alt: "Plastic waste collected in sacks",
+        width: 900,
+        height: 1200
+      },
+      {
+        id: 9,
+        src: "/Gallery_Images/Cleanliness_Drive/image9.jpg",
+        alt: "Volunteers cleaning garden areas in the college",
+        width: 1600,
+        height: 900
+      },
+      {
+        id: 10,
+        src: "/Gallery_Images/Cleanliness_Drive/image10.jpg",
+        alt: "Volunteers cleaning every corner of the college",
+        width: 1600,
+        height: 900
+      }
+    ]
+  },
+  "health-awareness-camp": {
+    id: 5,
+    eventId: "health-awareness-camp",
+    title: "Health Awareness Camp",
+    date: "March 2, 2025",
+    location: "NIT college campus",
+    category: "health",
+    description: "Free health check-up camp organized in a rural area, providing essential medical services to underserved communities. The camp featured screenings for BP, sugar, and vision, along with awareness sessions on hygiene and nutrition. Volunteers and medical staff ensured smooth coordination and distributed medicines and pamphlets",
+    images: [
+      {
+        id: 1,
+        src: "/Gallery_Images/Health_Awareness_Camp/image1.jpg",
+        alt: "Doctors conducting health check-ups",
+        width: 1200,
+        height: 800
+      },
+      {
+        id: 2,
+        src: "/Gallery_Images/Health_Awareness_Camp/image2.jpg",
+        alt: "Eye check up of students and elderly",
+        width: 800,
+        height: 1200
+      },
+      {
+        id: 3,
+        src: "/Gallery_Images/Health_Awareness_Camp/image3.jpg",
+        alt: "Medical staff collecting blood samples",
+        width: 1200,
+        height: 900
+      },
+      {
+        id: 4,
+        src: "/Gallery_Images/Health_Awareness_Camp/image4.jpg",
+        alt: "Health awareness posters and banners displayed",
+        width: 900,
+        height: 1200
+      },
+      {
+        id: 5,
+        src: "/Gallery_Images/Health_Awareness_Camp/image5.jpg",
+        alt: "Volunteers guiding villagers at the venue",
+        width: 1600,
+        height: 900
+      },
+      {
+        id: 6,
+        src: "/Gallery_Images/Health_Awareness_Camp/image6.jpg",
+        alt: "Group photo with doctors and volunteers",
+        width: 1600,
+        height: 900
+      }
+    ]
+  },
+  "cultural-program": {
+    "id": 6,
+    "eventId": "cultural-program",
+    "title": "Cultural Program",
+    "date": "December 12, 2024",
+    "location": "NIT college",
+    "category": "event",
+    "description": "Cultural performance during the NSS Annual Day celebration, showcasing diverse traditions and artistic expressions. The program featured a range of performances, from traditional dances to modern music, celebrating the rich cultural heritage of the community. The event provided a platform for students to showcase their talents and foster a sense of unity and pride.",
+    "images": [
+      {
+        "id": 1,
+        "src": "/Gallery_Images/Cultural_Program/image1.jpg",
+        "alt": "Students performing traditional dance and skit",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": 2,
+        "src": "/Gallery_Images/Cultural_Program/image2.jpg",
+        "alt": "Group photo of all the students and performers",
+        "width": 800,
+        "height": 1200
+      },
+      {
+        "id": 3,
+        "src": "/Gallery_Images/Cultural_Program/image3.jpg",
+        "alt": "Students outside from nit college were called to perform in the cultural program",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 4,
+        "src": "/Gallery_Images/Cultural_Program/image4.jpg",
+        "alt": "Students performing their regional traditional dance during the cultural program",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "id": 5,
+        "src": "/Gallery_Images/Cultural_Program/image5.jpg",
+        "alt": "Group photo of all the performers and the volunteers",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": 6,
+        "src": "/Gallery_Images/Cultural_Program/image6.jpg",
+        "alt": "Students showcasing vibrant attire and heritage through their dance",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  "yoga-session": {
+    "id": 7,
+    "eventId": "yoga-session",
+    "title": "Yoga Session",
+    "date": "January 21, 2025",
+    "location": "NIT College Campus",
+    "category": "health",
+    "description": "Morning yoga session conducted for the community, promoting physical and mental well-being. The session encouraged students, faculty, and residents to adopt yoga in daily life. Participants practiced yoga poses and breathing exercises, promoting flexibility, strength, and stress relief.",
+    "images": [
+      {
+        "id": 1,
+        "src": "/Gallery_Images/Yoga_Session/image1.jpg",
+        "alt": "Participants performing yoga poses in the morning",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": 2,
+        "src": "/Gallery_Images/Yoga_Session/image2.jpg",
+        "alt": "Instructor guiding the group through a yoga session",
+        "width": 800,
+        "height": 1200
+      },
+      {
+        "id": 3,
+        "src": "/Gallery_Images/Yoga_Session/image3.jpg",
+        "alt": "Group practicing yoga under the indtructor supervision",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 4,
+        "src": "/Gallery_Images/Yoga_Session/image4.jpg",
+        "alt": "The participants deeply engaged in yoga practice",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "id": 5,
+        "src": "/Gallery_Images/Yoga_Session/image5.jpg",
+        "alt": "Close-up of a participant practicing yoga poses",
+        "width": 1600,
+        "height": 900
+      },
+    ]
+  },
+  "awareness-rally": {
+    "id": 8,
+    "eventId": "awareness-rally",
+    "title": "Awareness Rally",
+    "date": "November 30, 2024",
+    "location": "NIT Campus",
+    "category": "event",
+    "description": "Rally organized to spread awareness about social issues, mobilizing community support for causes such as gender equality, education, and environmental conservation. Students and faculty participated enthusiastically, holding informative placards and chanting slogans to engage the public. The rally aimed to inspire civic responsibility and create a positive impact through collective action and advocacy.",
+    "images": [
+      {
+        "id": 1,
+        "src": "/Gallery_Images/Awareness_Rally/image1.jpg",
+        "alt": "Volunteers and students marching with awareness placards",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": 2,
+        "src": "/Gallery_Images/Awareness_Rally/image2.jpg",
+        "alt": "Participants chanting slogans during the rally",
+        "width": 800,
+        "height": 1200
+      },
+      {
+        "id": 3,
+        "src": "/Gallery_Images/Awareness_Rally/image3.jpg",
+        "alt": "Students holding a large banner about social change",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 4,
+        "src": "/Gallery_Images/Awareness_Rally/image4.jpg",
+        "alt": "Faculty members joining the rally",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "id": 5,
+        "src": "/Gallery_Images/Awareness_Rally/image5.jpg",
+        "alt": "Students creating awareness through posters",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "id": 6,
+        "src": "/Gallery_Images/Awareness_Rally/image6.jpg",
+        "alt": "Participants holding signs supporting education and equality",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 7,
+        "src": "/Gallery_Images/Awareness_Rally/image7.jpg",
+        "alt": "Rally making its way through campus pathways",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 8,
+        "src": "/Gallery_Images/Awareness_Rally/image8.jpg",
+        "alt": "Group marching vigoroulsly to create awareness and change",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+  },
+  "village-outreach": {
+    "id": 9,
+    "eventId": "village-outreach",
+    "title": "Village Outreach",
+    "date": "February 28, 2025",
+    "location": "Nearby Village",
+    "category": "education",
+    "description": "Volunteers teaching children in a nearby village, bridging educational gaps and fostering community engagement.The outreach program focused on basic literacy, creative learning, and interactive sessions to make education enjoyable. Volunteers also conducted fun activities and provided essential resources like clothes to the villagers.",
+    "images": [
+      {
+        "id": 1,
+        "src": "/Gallery_Images/Village_Outreach/image1.jpg",
+        "alt": "Volunteers distributing clothes and interacting with villagers",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "id": 2,
+        "src": "/Gallery_Images/Village_Outreach/image2.jpg",
+        "alt": "Team handing out supplies to villagers",
+        "width": 800,
+        "height": 1200
+      },
+      {
+        "id": 3,
+        "src": "/Gallery_Images/Village_Outreach/image3.jpg",
+        "alt": "Volunteer distributing snacks to children from a school bus",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 4,
+        "src": "/Gallery_Images/Village_Outreach/image4.jpg",
+        "alt": "Volunteer giving books to kids during outreach",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "id": 5,
+        "src": "/Gallery_Images/Village_Outreach/image5.jpg",
+        "alt": "Group photo of volunteers standing with outreach supplies",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "id": 6,
+        "src": "/Gallery_Images/Village_Outreach/image6.jpg",
+        "alt": "Volunteers distributing clothing items from the bus",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "id": 7,
+        "src": "/Gallery_Images/Village_Outreach/image7.jpg",
+        "alt": "Volunteers engaging with children during resource distribution",
+        "width": 1600,
+        "height": 900
+      }
+    ]
+
+  },
+  "cyber-awareness": {
+  id: 11,
+  eventId: "cyber-awareness",
+  title: "Cyber Awareness Case Study and Seminar",
+  date: "April 12, 2025",
+  location: "LHC, NIT Jamshedpur",
+  category: "events",
+  description: "Organized a Cyber Awareness Case Study competition followed by a seminar, promoting cybersecurity awareness through student presentations and expert insights. Students presented real-life case studies and solutions, while experts shed light on safe internet practices and modern-day cyber threats. .",
+  images: [
+    {
+      id: 1,
+      src: "/Gallery_Images/Cyber_Awareness/image1.jpg",
+      alt: "Participants presenting their cyber case study.",
+      width: 1200,
+      height: 800
+    },
+    {
+      id: 2,
+      src: "/Gallery_Images/Cyber_Awareness/image2.jpg",
+      alt: "Speaker discussing real-world cyber threats.",
+      width: 1200,
+      height: 900
+    },
+    {
+      id: 3,
+      src: "/Gallery_Images/Cyber_Awareness/image3.jpg",
+      alt: "Audience listening during the seminar.",
+      width: 800,
+      height: 1200
+     }
+    ]
+  },
+  "world-no-tobacco-day": {
+  id: 12,
+  eventId: "",
+  title: "World No Tobacco Day",
+  date: "May 31, 2025",
+  location: "Online",
+  category: "events",
+  description: "To mark World No Tobacco Day, NSS NIT Jamshedpur organized an online quiz and video-making competition to raise awareness about the harmful effects of tobacco. The event aimed to educate participants on tobacco-related health risks and promote a tobacco-free lifestyle through creative engagement.",
+  images: [
+    {
+      id: 1,
+      src: "/Gallery_Images/World_No_Tobacco_Day/image1.png",
+      alt: "all participants in the online video meet during the awareness event.",
+      width: 1200,
+      height: 800
+    },
+    {
+      id: 2,
+      src: "/Gallery_Images/World_No_Tobacco_Day/image2.png",
+      alt: "Quiz question displayed on screen during the World No Tobacco Day awareness session.",
+      width: 1200,
+      height: 900
+    },
+    {
+      id: 3,
+      src: "/Gallery_Images/World_No_Tobacco_Day/image3.png",
+      alt: "Another round of the online quiz with participants answering questions on tobacco awareness.",
+      width: 1200,
+      height: 900
+    }
+  ]
+},
+"world-environment-day": {
+  id: 13,
+  eventId: "world-environment-day",
+  title: "World Environment Day",
+  date: "June 5, 2025",
+  location: "Near Students' Homes",
+  category: "events",
+  description: "NSS NIT Jamshedpur celebrated World Environment Day with a plantation drive and an awareness video, encouraging students to take eco-friendly actions at home. Participants planted saplings in their neighborhoods and shared inspiring messages to promote sustainability.",
+  images: [
+    {
+      id: 1,
+      src: "/Gallery_Images/World_Environment_Day/image1.png",
+      alt: "Students planting a sapling near their home.",
+      width: 1200,
+      height: 800
+    },
+    {
+      id: 2,
+      src: "/Gallery_Images/World_Environment_Day/image2.png",
+      alt: "Students planting a sapling near their home.",
+      width: 1200,
+      height: 900
+    }
+  ]
+},
+"international-yoga-day-2025": {
+  id: 14,
+  eventId: "international-yoga-day-2025",
+  title: "International Yoga Day 2025",
+  date: "June 21, 2025",
+  location: "Online",
+  category: "events",
+  description: "An online yoga session conducted by NSS NIT Jamshedpur, featuring expert guidance and active student participation to promote mindfulness and well-being. Students joined from their homes and followed the session to boost physical and mental health.",
+  images: [
+    {
+      id: 1,
+      src: "/Gallery_Images/International_Yoga_Day/image1.jpg",
+      alt: "Instructor demonstrating yoga poses during the live session.",
+      width: 1200,
+      height: 800
+    },
+    {
+      id: 2,
+      src: "/Gallery_Images/International_Yoga_Day/image2.jpg",
+      alt: "Students participating in the online yoga session from their homes.",
+      width: 1200,
+      height: 900
+    },
+    {
+      id: 3,
+      src: "/Gallery_Images/International_Yoga_Day/image3.jpg",
+      alt: "Experienced Instructors sharing insights on Yoga and mental well being.",
+      width: 1000,
+      height: 1000
+    }
+  ]
+},
+"raksha-bandhan-soldiers-2025": {
+  id: 15,
+  eventId: "raksha-bandhan-soldiers-2025",
+  title: "Raksha Bandhan for Indian Soldiers 2025",
+  date: "August 2, 2025",
+  location: "NIT Jamshedpur",
+  category: "patriotism",
+  description: "NSS NIT Jamshedpur, under the guidance of Dr. Jayendra Kumar, sent 120 rakhis to Indian soldiers as a gesture of gratitude and solidarity. Supported by faculty wives and students, the initiative honoured the courage and sacrifice of our jawans.",
+  images: [
+    {
+      id: 1,
+      src: "/Gallery_Images/Raksha_Bandhan_Soldiers/image1.jpg",
+      alt: "Rakhis packed and prepared to be sent to soldiers.",
+      width: 1200,
+      height: 800
+    },
+    {
+      id: 2,
+      src: "/Gallery_Images/Raksha_Bandhan_Soldiers/image2.jpg",
+      alt: "Faculty wives and students preparing rakhis.",
+      width: 1200,
+      height: 900
+    },
+    {
+      id: 3,
+      src: "/Gallery_Images/Raksha_Bandhan_Soldiers/image3.jpg",
+      alt: "Group photo of contributors to the rakhi initiative.",
+      width: 900,
+      height: 1200
+    }
+  ]
+},
+"raksha-bandhan-security-guards-2025": {
+  id: 16,
+  eventId: "raksha-bandhan-security-guards-2025",
+  title: "Raksha Bandhan Celebration with Security Guards 2025",
+  date: "August 9, 2025",
+  location: "NIT Jamshedpur",
+  category: "community",
+  description: "The NSS Unit of NIT Jamshedpur celebrated Raksha Bandhan by honouring nearly 50 campus security guards. Girl students tied rakhis as a mark of respect, joined by faculty members and Brahmakumari sisters.",
+  images: [
+    {
+      id: 1,
+      src: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image1.jpg",
+      alt: "Student tying rakhi to a campus security guard.",
+      width: 1200,
+      height: 800
+    },
+    {
+      id: 2,
+      src: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image2.jpg",
+      alt: "Faculty members present during the celebration.",
+      width: 1200,
+      height: 900
+    },
+    {
+      id: 3,
+      src: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image3.jpg",
+      alt: "Brahmakumari sisters participating in the event.",
+      width: 900,
+      height: 1200
+    },
+    {
+      id: 4,
+      src: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image4.jpg",
+      alt: "Girl students tying rakhis to multiple security personnel.",
+      width: 1200,
+      height: 800
+    },
+    {
+      id: 5,
+      src: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image5.jpg",
+      alt: "Group photo of NSS members and security staff.",
+      width: 1600,
+      height: 900
+    },
+    {
+      id: 6,
+      src: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image6.jpg",
+      alt: "Smiling participants sharing the festive spirit.",
+      width: 1200,
+      height: 900
+    },
+    {
+      id: 7,
+      src: "/Gallery_Images/Raksha_Bandhan_Security_Guards/image7.jpg",
+      alt: "Security personnel showing tied rakhis with pride.",
+      width: 900,
+      height: 1200
+    }
+  ]
+},
+"independence-day-flag-rally-2025": {
+    id: 17,
+    eventId: "independence-day-flag-rally-2025",
+    title: "Independence Day Flag Rally 2025",
+    date: "August 14, 2025",
+    location: "NIT Jamshedpur",
+    category: "patriotism",
+    description: "On the eve of India’s 79th Independence Day, NSS NIT Jamshedpur, in collaboration with NCC Jharkhand 37 Battalion, organised a spirited Flag Rally. Nearly 70 participants marched from the Old Academic Building through the Main Gate and Professors’ Colony, waving flags, chanting slogans, and promoting the Har Ghar Tiranga campaign.",
+    images: [
+        {
+            id: 1,
+            src: "/Gallery_Images/Independence_Day_Flag_Rally_2025/image1.jpg",
+            alt: "Volunteers and NCC cadets assembling for the flag rally.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 2,
+            src: "/Gallery_Images/Independence_Day_Flag_Rally_2025/image2.jpg",
+            alt: "Participants holding the Tricolour during the rally.",
+            width: 1200,
+            height: 900
+        },
+        {
+            id: 3,
+            src: "/Gallery_Images/Independence_Day_Flag_Rally_2025/image3.jpg",
+            alt: "Rally moving past the NIT Main Gate.",
+            width: 900,
+            height: 1200
+        },
+        {
+            id: 4,
+            src: "/Gallery_Images/Independence_Day_Flag_Rally_2025/image4.jpg",
+            alt: "Group of volunteers chanting patriotic slogans.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 5,
+            src: "/Gallery_Images/Independence_Day_Flag_Rally_2025/image5.jpg",
+            alt: "Team photo after completing the rally route.",
+            width: 1200,
+            height: 900
+        }
+    ]
+},
+"mega-blood-donation-camp-2025": {
+    id: 18,
+    eventId: "mega-blood-donation-camp-2025",
+    title: "Mega Blood Donation Camp 2025",
+    date: "August 30, 2025",
+    location: "TSG Hall, NIT Jamshedpur",
+    category: "social-service",
+    description: "NIT Jamshedpur Alumni Association (NITJAA), in collaboration with NSS NIT Jamshedpur, organised a Mega Blood Donation Camp at TSG Hall. The event was inaugurated by the institute’s leadership in the presence of dignitaries, guests, and alumni. With enthusiastic participation from students, faculty, staff, and alumni, 335 units of blood were collected — setting a new milestone for the institute.",
+    images: [
+      //Guests and alumni attending the inaugural ceremony
+        {
+            id: 1,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image1.jpg",
+            alt: "Blood donation in progress inside TSG Hall.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 2,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image2.jpg",
+            alt: "Dignitaries inaugurating the Mega Blood Donation Camp.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 3,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image3.jpg",
+            alt: "Volunteers assisting donors at the registration desk.",
+            width: 1200,
+            height: 900
+        },
+        {
+            id: 4,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image4.jpg",
+            alt: "Faculty members actively participating in the camp.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 5,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image5.jpg",
+            alt: "Donors resting after successful blood donation.",
+            width: 1200,
+            height: 900
+        },
+        {
+            id: 6,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image6.jpg",
+            alt: "Blood donation in progress inside TSG Hall.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 7,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image7.jpg",
+            alt: "Group photo capturing the success of the Mega Camp.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 8,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image8.jpg",
+            alt: "Group photo capturing the success of the Mega Camp.",
+            width: 1200,
+            height: 900
+        },
+        {
+            id: 9,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image9.jpg",
+            alt: "Highlights of the Mega Blood Donation Camp 2025 at NIT Jamshedpur.",
+            width: 1200,
+            height: 800
+        },
+        {
+            id: 10,
+            src: "/Gallery_Images/Mega_Blood_Donation_Camp_2025/image10.jpg",
+            alt: "Group photo capturing the success of the Mega Camp.",
+            width: 1200,
+            height: 900
+        }
+    ]
+}
+
+
+
+
+
+
+  // Additional events would be defined here...
+};
+
+// export const teamMembers = {
+//   superCore: [
+//     {
+//       id: 1,
+//       name: 'Dr Jayendra Kumar',
+//       position: 'Professor Incharge',
+//       image: '/core-team/dr-jayendra-kumar.webp',
+//       department: 'Electronics and Communication Engineering',
+//       email: 'rajesh.kumar@nitjsr.ac.in',
+//       description: 'Dr. Rajesh Kumar has been leading the NSS unit at NIT Jamshedpur for the past 5 years. Under his guidance, the unit has achieved numerous milestones and recognition.',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 3,
+//       name: 'Shifan Akram ',
+//       position: 'President ',
+//       image: '/core-team/shifan-akram.webp',
+//       department: 'B.Tech, Civil engineering ',
+//       email: 'shifanakram35@gmail.com',
+//       description: 'Sushant co-leads the media team, specializing in photography and videography of NSS events and campaigns.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/shifan-akram-343326264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 4,
+//       name: 'Shyamali Rupam',
+//       position: 'Vice President',
+//       image: '/core-team/Shyamli Rupam.webp',
+//       department: 'B.Tech, Electronics and Communication Engineering',
+//       email: 'rupamshy2307@gmail.com',
+//       description: 'Shyamali is responsible for overall coordination of NSS activities and leads the team of volunteers. She has been an active NSS volunteer since her first year.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/shyamli-rupam?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 9,
+//       name: 'Gourab Bistu',
+//       position: 'Web Head',
+//       image: "/core-team/gourab-bistu.webp",
+//       department: 'Master of Computer Applications',
+//       email: 'gourabbistu@gmail.com',
+//       description: 'Gourab leads the web development team, ensuring digital presence and technical resources for NSS initiatives.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/gourabbistu/',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//      {
+//       id: 5,
+//       name: 'Neeraj Bhatt',
+//       position: 'EM Head',
+//       image: '/core-team/Neeraj.webp',
+//       department: 'Master of Computer Applications',
+//       email: 'neeraj.bhatt099@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/neerajbhatt099/',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 6,
+//       name: 'Doddy Mourya',
+//       position: 'EM Head',
+//       image: '/core-team/Mourya.webp',
+//       department: 'B.Tech, \Metallurgical and materials engineering ',
+//       email: 'mourya.doddi45@gmail.com',
+//       description: 'Doddy co-leads the Event Management division and specializes in coordinating large-scale community service projects.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/doddi-mourya-6b708727b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 7,
+//       name: 'Pratyush Kumar',
+//       position: 'Creative Head',
+//       image: '/core-team/pratyush kumar.webp',
+//       department: 'B.Tech, Electronics and Communication Engineering',
+//       email: 'pratyush.dms30@gmail.com',
+//       description: 'Pratyush oversees all creative aspects of NSS campaigns and events, bringing innovation to social service initiatives.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/pratyush-kumar-gupta-05a492259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 8,
+//       name: 'Utkarsh Shukla',
+//       position: 'Content Head',
+//       image: '/core-team/Utkarsh Shukla.webp',
+//       department: 'B.Tech, Production & Industrial Engineering ',
+//       email: 'shuklautkarsh1027@gmail.com',
+//       description: 'Utkarsh manages content creation and messaging strategy for all NSS communications and outreach materials.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/utkarsh-shukla-bb1a01257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 10,
+//       name: 'Rupam Kumari',
+//       position: 'PR Head',
+//       image: '/core-team/IMG-20250327-WA0004.webp',
+//       department: 'B.Tech, production and industrial engineering',
+//       email: 'rumdaza@gmail.com',
+//       description: 'Rupam manages public relations and external communications for NSS, building partnerships with community stakeholders.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/rupam-kumari-64775b271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 11,
+//       name: 'Kajal Shaw',
+//       position: 'PR Head',
+//       image: '/core-team/Kajal Shaw.webp',
+//       department: 'B.Tech, Civil Engineering ',
+//       email: '2022ugce067@gmail.com',
+//       description: 'Kajal co-leads the public relations team, focusing on media engagement and institutional partnerships.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/kajal-shaw-94778a271',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 12,
+//       name: 'Rinki Kumari',
+//       position: 'Media Head',
+//       image: '/core-team/Rinki Kumari .webp',
+//       department: 'B.Tech,Civil engineering ',
+//       email: 'rinkyie321@gmail.com',
+//       description: 'Rinki manages all media content and documentation of NSS activities, creating compelling visual narratives.',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 13,
+//       name: 'Sushant Kachhap',
+//       position: 'Media Head',
+//       image: '/core-team/Sushant Kachhap .webp',
+//       department: 'B.Tech, Computer Science and Engineering',
+//       email: 'sushantkachhap68@gmail.com',
+//       description: 'Sushant co-leads the media team, specializing in photography and videography of NSS events and campaigns.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/sushant-kachhap-4153b1266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 14,
+//       name: 'Basundhara Singhdeo ',
+//       position: 'Strategic and Planning Head',
+//       image: '/core-team/bhasundra.webp',
+//       department: 'B.Tech, Electronics and Communication Engineering',
+//       email: 'singhdeobasundhara@gmail.comn',
+//       description: 'Sushant co-leads the media team, specializing in photography and videography of NSS events and campaigns.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/basundhara-singhdeo-b5a74925b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 15,
+//       name: 'Ankit Aryan',
+//       position: 'Strategic and Planning Head',
+//       image: '/core-team/ankit-aryan.webp',
+//       department: 'B.Tech, Electrical Engineering',
+//       email: 'not-found@gmail.com',
+//       description: 'Sushant co-leads the media team, specializing in photography and videography of NSS events and campaigns.',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 16,
+//       name: 'Bhavesh Gupta',
+//       position: 'PG Representative',
+//       image: '/core-team/bhavesh gupta.webp',
+//       department: 'Master of Computer Applications',
+//       email: 'bhaveshguptanit@gmail.com',
+//       description: 'Sushant co-leads the media team, specializing in photography and videography of NSS events and campaigns.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/bhavesh-gupta-894141337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 17,
+//       name: 'Santosh Kumar Sahani',
+//       position: 'PG Representative',
+//       image: '/core-team/Santosh Kumar Sahani.webp',
+//       department: 'Master of Computer Applications',
+//       email: 'sks.vssems@gmail.com',
+//       description: 'Sushant co-leads the media team, specializing in photography and videography of NSS events and campaigns.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/santosh-kumar-sahani-13702828a/',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+    
+//   ],
+//   core: [
+//     {
+//       id: 17,
+//       name: 'Saransh',
+//       position: 'General Secretary',
+//       image: '/core-team/Saransh.webp',
+//       department: 'B.Tech,Production & Industrial Engineering',
+//       email: 'saransh7505@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'http://www.linkedin.com/in/saransh754',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 18,
+//       name: 'NIRMAL NIRANJAN PATIL',
+//       position: 'General Secretary',
+//       image: '/core-team/Nirmal (1)_page-0001.jpg',
+//       department: 'B.Tech,Mechanical Engineering',
+//       email: 'nirnalpatil9@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/nirmal-niranjan-patil-ab274a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 19,
+//       name: 'Sumant Nanda ',
+//       position: 'Joint Secretary ',
+//       image: '/core-team/Sumant Nanda .webp',
+//       department: 'B.Tech,Electrical Engineering ',
+//       email: 'sumantnandadi09@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/sumant-nanda-a2578a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 20,
+//       name: 'Ekangsh Sah',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Ekangsh Sah(1).webp',
+//       department: 'B.Tech,Production & Industrial Engineering',
+//       email: 'sekangsh@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'http://www.linkedin.com/in/ekangsh-sah-14a84428a',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 21,
+//       name: 'Ayush Das',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Ayush 1.webp',
+//       department: 'Master of Computer Applications',
+//       email: 'ayushdas7354@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'http://www.linkedin.com/in/ayushdas84',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 20,
+//       name: 'Ritika Rani',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Ritika Rani.webp',
+//       department: 'B.Tech,Mechanical Engineering',
+//       email: 'ritika130482@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/ritika-rani-7302a5298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 22,
+//       name: 'Kriti Srivastava ',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Kriti.webp',
+//       department: 'B.Tech,Civil Engineering ',
+//       email: 'srikritivastava11@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/kriti-srivastava-0707a128a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 23,
+//       name: 'Saksham Shubh',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Saksham Shubh.webp',
+//       department: 'B.Tech,Production & Industrial Engineering ',
+//       email: 'sakshamshubh04@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 23,
+//       name: 'MRINAL AYUSH RAJ',
+//       position: 'Joint Secretary',
+//       image: '/core-team/MRINAL AYUSH RAJ.webp',
+//       department: 'B.Tech,MECHANICAL ENGINEERING',
+//       email: 'mrinalayush1437@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/mrinal-ayush-raj-65300527a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 24,
+//       name: 'Pranay Parasana ',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Pranay prasana.webp',
+//       department: 'B.Tech,Metallurgical and Materials Engineering ',
+//       email: 'pranay.raja.25@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/pranay-parasana-744867258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 25,
+//       name: 'Aman kumar ',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Aman kumar .webp',
+//       department: 'Master of Computer Applications ',
+//       email: 'rajamanofficial1@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/aman-kumar-a2b425324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 26,
+//       name: 'AMAN KUMAR JHA ',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Aman Jha.webp',
+//       department: 'B.Tech,Civil Engineering  ',
+//       email: 'aman.ac.5673@gmail.com',
+//       description: 'Neeraj leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'http://www.linkedin.com/in/aman-kumar-jha-13211027b',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//    {
+//       id: 27,
+//       name: 'RAVI RANJAN',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Ravi.webp',
+//       department: 'B.Tech,Engineering and Computational mechanics  ',
+//       email: 'itsme9508674540@gmail.com',
+//       description: 'Ravi leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/ravi-ranjan-3063862a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+  
+//     {
+//       id: 27,
+//       name: 'RAVI RANJAN',
+//       position: 'Joint Secretary',
+//       image: '/core-team/Ravi.webp',
+//       department: 'B.Tech,Engineering and Computational mechanics  ',
+//       email: 'itsme9508674540@gmail.com',
+//       description: 'Ravi leads the Event Management team and ensures smooth execution of NSS initiatives across campus and community.',
+//       social: {
+//         linkedin: 'https://www.linkedin.com/in/ravi-ranjan-3063862a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//   ],
+//   volunteers: [
+//     {
+//       id: 28,
+//       name: 'MAYANK SAHOO',
+//       position: 'Volunteer',
+//       image: '/core-team/4.jpg',
+//       department: 'B.Tech, Production Engineering',
+//       email: '',
+//       description: 'Mayank is an enthusiastic volunteer who actively participates in all NSS activities. He is particularly interested in environmental conservation projects.',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 29,
+//       name: 'KRISHNA KUMAR CHOUDHARY',
+//       position: 'Volunteer',
+//       image: '/core-team/6.jpg',
+//       department: 'B.Tech, Computer Science',
+//       email: '',
+//       description: 'Krishna is passionate about teaching and regularly conducts educational workshops for underprivileged children as part of NSS activities.',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+//     {
+//       id: 30,
+//       name: 'ISHIKA GUPTA',
+//       position: 'Volunteer',
+//       image: '/core-team/5.jpg',
+//       department: 'B.Tech, Mechanical Engineering',
+//       email: '',
+//       description: 'Ishika is skilled in organizing health camps and awareness programs. He has been instrumental in the success of several health-related initiatives.',
+//       social: {
+//         linkedin: '#',
+//         twitter: '#',
+//         instagram: '#'
+//       }
+//     },
+   
+//   ],
+// };
+
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Himanshu Sheth",
+    position: "Educationist Sustainability Promoter Innovator", 
+    image: "/testimonials/himanshu-sheth.webp",
+    quote: "The NSS unit at NIT JSR exemplifies the true spirit of service before self. During my tenure, I witnessed remarkable growth in student participation and community engagement. The dedication with which students approach social challenges is truly inspiring.",
+    date: "January 2025",
+    icon: "user-tie"
+  },
+
+];
